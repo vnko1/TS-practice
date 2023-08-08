@@ -1,0 +1,1 @@
+{"version":3,"file":"concatenation.js","sourceRoot":"","sources":["../src/concatenation.ts"],"names":[],"mappings":"AAAA,MAAM,aAAa,GAAG,CAAC,SAAiB,EAAE,UAAkB,EAAE,EAAE;IAC9D,OAAO,CAAC,GAAG,CAAC,SAAS,GAAG,GAAG,GAAG,UAAU,CAAC,CAAC;AAC5C,CAAC,CAAC;AAEF,OAAO,EAAE,aAAa,EAAE,CAAC"}
