@@ -387,10 +387,13 @@ enum AnimalId {
 // const b = goo<Name, Age>({ name: "asd" }, { age: 23 });
 // b.name;
 
+// type UserName = { name: string };
+// type UserAge = { age: number };
+
 // function goo<I extends object, U extends object>(a: I, b: U) {
 //   return { ...a, ...b };
 // }
-// const a = goo({ name: "asd" }, { age: 23 });
+// const a = goo<UserName, UserAge>({ name: "asd" }, { age: 23 });
 // a.name;
 
 // type Length = {
@@ -411,11 +414,11 @@ enum AnimalId {
 // // foo([1, 2, 3]);
 // foo(["1", "2", "3"]);
 
-enum N {
-  name = "number",
-}
+// enum N {
+//   name = "number",
+// }
 
-const arr = { [N.name]: 2 };
+// const arr = { [N.name]: 2 };
 
 // *------------------------------------------------------------//
 const concatenation = (
