@@ -1,34 +1,34 @@
 class A {
   //   private someAProperty = "Astr";
-  protected someProperty = "Astr";
+  // protected someProperty = "Astr";
   //   public showAProperty() {
   //     console.log(this.someAProperty);
   //   }
 }
 
-class B extends A {
-  //   private someBProperty = "Bstr";
-  //   showProperty() {
-  //     console.log(this.someProperty); // Помилка: 'someProperty' можна викликати лише в класі A
-  //   }
+// class B extends A {
+//   private someBProperty = "Bstr";
+//   showProperty() {
+//     console.log(this.someProperty); // Помилка: 'someProperty' можна викликати лише в класі A
+//   }
 
-  //   showFromAProperty(this: A) {
-  //     this.showAProperty();
-  //   }
+//   showFromAProperty(this: A) {
+//     this.showAProperty();
+//   }
 
-  //   showBProperty() {
-  //     console.log(this.someBProperty);
-  //   }
-  showProperty() {
-    console.log(this.someProperty);
-  }
-}
+//   showBProperty() {
+//     console.log(this.someBProperty);
+//   }
+//   showProperty() {
+//     console.log(this.someProperty);
+//   }
+// }
 
-const b = new B();
+// const b = new B();
 // b.showFromAProperty();
 // b.showBProperty();
 // b.showAProperty();
-b.showProperty();
+// b.showProperty();
 // b.someProperty
 
 // class House {
